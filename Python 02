@@ -1,0 +1,6 @@
+nome = input("Informe seu nome: ")
+idade = float(input("Informe sua idade: "))
+
+idadeemdias = idade*365
+
+print("Sua idade é " + str(idadeemdias) + " e seu nome é " + nome)
