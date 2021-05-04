@@ -1,0 +1,10 @@
+a = 30.46257
+name = "Sindel"
+age = 23
+print("Meu nome é %s " % name)
+print("Tenho %d anos" % age)
+print("Formatando decimais: %f" % a)
+print("Formatando decimais: %.5f" % a)
+print("Formatando decimais: %.4f" % a)
+print("Formatando decimais: %.3f" % a)
+print("Formatando decimais: %.2f" % a)
