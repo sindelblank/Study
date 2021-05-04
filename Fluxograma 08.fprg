@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sindel.blank"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-04-28 10:31:55 "/>
+        <attribute name="created" value="c2luZGVsLmJsYW5rO0dNRVBOMDAyMDMwOzIwMjEtMDQtMjg7IjEwOjIyOjA3ICI7MzA1OQ=="/>
+        <attribute name="edited" value="c2luZGVsLmJsYW5rO0dNRVBOMDAyMDMwOzIwMjEtMDQtMjg7IjEwOjMxOjU1ICI7MTszMTcw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="soma, n1, n2, n3, n4, n5" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe o primeiro n&#250;mero: &quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Informe o segundo n&#250;mero: &quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Informe o terceiro n&#250;mero: &quot;" newline="True"/>
+            <input variable="n3"/>
+            <output expression="&quot;Informe o quarto n&#250;mero: &quot;" newline="True"/>
+            <input variable="n4"/>
+            <output expression="&quot;Informe o quinto n&#250;mero: &quot;" newline="True"/>
+            <input variable="n5"/>
+            <assign variable="soma" expression="n1+n2+n3+n4+n5"/>
+            <output expression="&quot;A soma dos n&#250;meros &#233; &quot; &amp; soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

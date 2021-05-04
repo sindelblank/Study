@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sindel.blank"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-04-07 09:37:20 "/>
+        <attribute name="created" value="c2luZGVsLmJsYW5rO0dNRVBOMDAyMDMwOzIwMjEtMDQtMDY7IjA0OjAwOjMzICI7MzA1Mw=="/>
+        <attribute name="edited" value="c2luZGVsLmJsYW5rO0dNRVBOMDAyMDMwOzIwMjEtMDQtMDc7IjA5OjM3OjIwICI7MTszMTcz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, idade, curso" type="String" array="False" size=""/>
+            <output expression="&quot;Informe seu nome: &quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Informe sua idade: &quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="&quot;Informe o ano que iniciou seu curso: &quot;" newline="True"/>
+            <input variable="curso"/>
+            <output expression="&quot;Seu nome &#233; &quot; &amp; nome &amp; &quot;, voc&#234; tem &quot; &amp; idade &amp; &quot; anos e iniciou seu curso em &quot; &amp; curso &amp; &quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

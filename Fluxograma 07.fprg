@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sindel.blank"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-04-11 06:37:20 "/>
+        <attribute name="created" value="c2luZGVsLmJsYW5rO0dNRVBOMDAyMDMwOzIwMjEtMDQtMTE7IjA2OjM0OjE2ICI7MzA1OQ=="/>
+        <attribute name="edited" value="c2luZGVsLmJsYW5rO0dNRVBOMDAyMDMwOzIwMjEtMDQtMTE7IjA2OjM3OjIwICI7MTszMTY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="altura, raio, volume" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe a altura da lata: &quot;" newline="True"/>
+            <input variable="altura"/>
+            <output expression="&quot;Informe o raio da circunfer&#234;ncia da lata: &quot;" newline="True"/>
+            <input variable="raio"/>
+            <assign variable="volume" expression="3.14159*(raio*raio)*altura"/>
+            <output expression="&quot;O volume da lata &#233;: &quot; &amp; volume" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

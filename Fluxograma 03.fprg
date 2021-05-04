@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sindel.blank"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-04-07 11:25:41 "/>
+        <attribute name="created" value="c2luZGVsLmJsYW5rO0dNRVBOMDAyMDMwOzIwMjEtMDQtMDc7IjEwOjExOjQ1ICI7MzA1Ng=="/>
+        <attribute name="edited" value="c2luZGVsLmJsYW5rO0dNRVBOMDAyMDMwOzIwMjEtMDQtMDc7IjExOjI1OjQxICI7MTszMTY2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="res, n1, n2, n3, n4" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe o primeiro n&#250;mero: &quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Informe o segundo n&#250;mero: &quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Informe o terceiro n&#250;mero: &quot;" newline="True"/>
+            <input variable="n3"/>
+            <output expression="&quot;Informe o quarto n&#250;mero: &quot;" newline="True"/>
+            <input variable="n4"/>
+            <assign variable="res" expression="(n1*n1)+(n2*n2)+(n3*n3)+(n4*n4)"/>
+            <output expression="&quot;O resultado &#233; &quot; &amp; res &amp; &quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sindel.blank"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-04-11 06:30:07 "/>
+        <attribute name="created" value="c2luZGVsLmJsYW5rO0dNRVBOMDAyMDMwOzIwMjEtMDQtMTE7IjA2OjI3OjIzICI7MzA1OQ=="/>
+        <attribute name="edited" value="c2luZGVsLmJsYW5rO0dNRVBOMDAyMDMwOzIwMjEtMDQtMTE7IjA2OjMwOjA3ICI7MTszMTYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="media, n1, n2, n3" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe o primeiro n&#250;mero: &quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Informe o segundo n&#250;mero: &quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Informe o terceiro n&#250;mero: &quot;" newline="True"/>
+            <input variable="n3"/>
+            <assign variable="media" expression="(n1 + n2 + n3) / 3"/>
+            <output expression="&quot;A m&#233;dia &#233; &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

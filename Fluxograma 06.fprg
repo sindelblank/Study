@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sindel.blank"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-04-11 06:34:13 "/>
+        <attribute name="created" value="c2luZGVsLmJsYW5rO0dNRVBOMDAyMDMwOzIwMjEtMDQtMTE7IjA2OjMwOjExICI7MzA1MA=="/>
+        <attribute name="edited" value="c2luZGVsLmJsYW5rO0dNRVBOMDAyMDMwOzIwMjEtMDQtMTE7IjA2OjM0OjEzICI7MTszMTY0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="anos, meses, dias, total" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe sua idade: &quot;" newline="True"/>
+            <input variable="anos"/>
+            <output expression="&quot;Informe os meses: &quot;" newline="True"/>
+            <input variable="meses"/>
+            <output expression="&quot;Informe os dias: &quot;" newline="True"/>
+            <input variable="dias"/>
+            <assign variable="total" expression="(anos*365) + (meses*30) + dias"/>
+            <output expression="&quot;Sua idade em dias &#233;: &quot; &amp; total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

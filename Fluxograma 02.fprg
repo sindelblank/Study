@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sindel.blank"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-04-07 10:11:42 "/>
+        <attribute name="created" value="c2luZGVsLmJsYW5rO0dNRVBOMDAyMDMwOzIwMjEtMDQtMDc7IjA5OjM3OjM1ICI7MzA3MQ=="/>
+        <attribute name="edited" value="c2luZGVsLmJsYW5rO0dNRVBOMDAyMDMwOzIwMjEtMDQtMDc7IjEwOjExOjQyICI7MTszMTYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="res, n1, n2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Insira o primeiro n&#250;mero: &quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Insira o segundo n&#250;mero: &quot;" newline="True"/>
+            <input variable="n2"/>
+            <assign variable="res" expression="n1 * n2"/>
+            <output expression="n1 &amp; &quot; vezes &quot; &amp; n2 &amp; &quot; &#233; igual a &quot; &amp; res" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
