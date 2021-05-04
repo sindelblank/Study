@@ -1,0 +1,9 @@
+a = 30.46257
+name = "Sindel"
+age = 23
+
+print("Meu nome é %s " %name)
+print("Minha idade é %d" %age)
+print("Minha idade é " + str(age))
+print("Formatado com 2 casas decimais %.2f" %a)
+print("Formatado FORMAT(), com 2 casas decimais " + format(a, '.2f'))
