@@ -1,0 +1,9 @@
+def counter(* num):
+    for valor in num:
+        print(f"{valor}", end=" ")
+    print("FIM!")
+
+
+counter(2, 1, 7)
+counter(8, 0)
+counter(1, 2, 3, 4, 5)
