@@ -1,0 +1,9 @@
+def sum(a, b):
+    print(f"A = {b} e B = {b}")
+    s = a + b
+    print(f"A + B = {s}")
+
+
+# Main program
+sum(3, 5)
+sum(2, 2)
