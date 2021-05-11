@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sindel.blank"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-10 09:11:23 "/>
+        <attribute name="created" value="c2luZGVsLmJsYW5rO0dNRVBOMDAyMDMwOzIwMjEtMDUtMTA7IjA4OjQ5OjI0ICI7MzA2Ng=="/>
+        <attribute name="edited" value="c2luZGVsLmJsYW5rO0dNRVBOMDAyMDMwOzIwMjEtMDUtMTA7IjA5OjExOjIzICI7MTszMTYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cont, num, resultado" type="Integer" array="False" size=""/>
+            <assign variable="resultado" expression="0"/>
+            <for variable="cont" start="1" end="5" direction="inc" step="1">
+                <output expression="&quot;Informe o &quot; &amp; cont &amp; &quot;&#186; n&#250;mero&quot;" newline="True"/>
+                <input variable="num"/>
+                <assign variable="resultado" expression="resultado + num"/>
+            </for>
+            <output expression="&quot;A soma dos n&#250;meros &#233;: &quot; &amp; resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sindel.blank"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-06 08:56:12 "/>
+        <attribute name="created" value="c2luZGVsLmJsYW5rO0dNRVBOMDAyMDMwOzIwMjEtMDUtMDY7IjA4OjAzOjMzICI7MzA2MQ=="/>
+        <attribute name="edited" value="c2luZGVsLmJsYW5rO0dNRVBOMDAyMDMwOzIwMjEtMDUtMDY7IjA4OjU2OjEyICI7MTszMTc0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="media" type="Real" array="False" size=""/>
+            <declare name="somat, contf, contm, cont, idade, genero" type="Integer" array="False" size=""/>
+            <assign variable="somat" expression="0"/>
+            <assign variable="media" expression="0"/>
+            <assign variable="contf" expression="0"/>
+            <assign variable="contm" expression="0"/>
+            <assign variable="cont" expression="0"/>
+            <output expression="&quot;Qual sua idade? &quot;" newline="True"/>
+            <input variable="idade"/>
+            <while expression="idade &gt; 0">
+                <assign variable="somat" expression="somat + idade"/>
+                <assign variable="cont" expression="cont + 1"/>
+                <output expression="&quot;Qual seu g&#234;nero? 0 - Masc. | 1 - Fem.: &quot;" newline="True"/>
+                <input variable="genero"/>
+                <if expression="genero == 1 and idade &gt;= 30 and idade &lt;= 45">
+                    <then>
+                        <assign variable="contf" expression="contf + 1"/>
+                    </then>
+                    <else>
+                        <if expression="genero == 0">
+                            <then>
+                                <assign variable="contm" expression="contm + 1"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </else>
+                </if>
+                <output expression="&quot;Qual a sua idade? &quot;" newline="True"/>
+                <input variable="idade"/>
+            </while>
+            <assign variable="media" expression="somat / cont"/>
+            <output expression="&quot;O n&#250;mero total de mulheres entre 30-45 anos &#233;: &quot; &amp; contf" newline="True"/>
+            <output expression="&quot;O n&#250;mero total de homens &#233;: &quot; &amp; contm" newline="True"/>
+            <output expression="&quot;A idade m&#233;dia de todas as pessoas &#233;: &quot; &amp; media &amp; &quot; anos.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
